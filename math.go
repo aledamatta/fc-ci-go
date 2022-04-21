@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(somar(10, 10))
+	fmt.Println(Somar(10, 10))
 }
 
-func somar(a, b int) int {
+func Somar(a, b int) int {
 	return a + b
 }
